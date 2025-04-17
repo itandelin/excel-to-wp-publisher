@@ -60,3 +60,4 @@
 - 建议在本地搭建环境运行导入，远程网络环境可能会导致上传超时等问题
 - 笔者使用的是免费的[后羿采集器](https://www.houyicaiji.com/)采集的数据，当然也可以使用其他的采集工具导出采集数据为 Excel文件。
 - 本插件是由 AI 编写，笔者没有 Windows 环境，所以只在 MacOS上做了测试，若 Windows 上运行有问题，请自行下载源码后让 AI 去修改：）
+- 使用说明可以[查看博客](https://www.74110.net/notes/excel-to-wp-publisher/)
