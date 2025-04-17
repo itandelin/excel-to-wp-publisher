@@ -1,0 +1,13 @@
+{
+    "name": "wordpress/excel-to-wp-publisher",
+    "description": "批量从Excel导入文章内容到WordPress，支持图片上传和字段映射",
+    "type": "wordpress-plugin",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExcelToWpPublisher\\": "includes/"
+        }
+    }
+}

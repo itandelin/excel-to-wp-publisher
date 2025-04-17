@@ -1,0 +1,199 @@
+/* 映射模式选择 */
+.etwp-mapping-mode {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+.etwp-mapping-mode label {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* 选择框映射 */
+.etwp-select-mapping {
+    margin-bottom: 30px;
+}
+
+.etwp-select-mapping-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.etwp-select-mapping-table th,
+.etwp-select-mapping-table td {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.etwp-select-mapping-table th {
+    background: #f1f1f1;
+    text-align: left;
+}
+
+.etwp-select-mapping-table select {
+    width: 100%;
+}
+
+/* 映射预览 */
+.etwp-mapping-preview {
+    margin-top: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+#mapping-preview {
+    min-height: 50px;
+}
+
+.mapping-item {
+    display: flex;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.mapping-item .excel-field {
+    flex: 1;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.mapping-item .wp-field {
+    flex: 1;
+    color: #0073aa;
+}
+
+/* 进度监控区域 */
+.etwp-progress-monitor {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* 环形进度条 */
+.etwp-progress-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.circular-chart {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    stroke: #0073aa;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart .percentage {
+    fill: #333;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+/* 进度统计 */
+.etwp-progress-stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.stat-item {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.stat-item .label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.stat-item .value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 日志区域 */
+.etwp-log-container {
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.log-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f1f1f1;
+}
+
+.log-header h4 {
+    margin: 0;
+}
+
+.log-content {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px 15px;
+}
+
+.log-entry {
+    margin-bottom: 5px;
+    padding: 5px 0;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.log-entry.success {
+    color: #46b450;
+}
+
+.log-entry.error {
+    color: #dc3232;
+}
+
+.log-entry.error-detail {
+    color: #dc3232;
+    margin-left: 15px;
+    font-size: 0.9em;
+}
